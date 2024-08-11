@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.friends-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  min-width: 300px;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bill-title {
+  font-Size: 16px;
+  font-Family: sans-serif;
+  font-Weight: 700;
+  color: olive;
+}
+
+.image-name-container {
+  display: flex;
+  flex-Grow: 1;
+  gap: 20px
+}
+
+.friends-card:hover {
+  background-color: #f8eac2;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-friend {
+  display: flex;
+  flex-Direction: column;
+  gap: 1rem;
+  padding: 10px 16px 10px 16px;
+  border-radius: 6px;
+  background-color: #f8eac2;
+}
+
+.card-content {
+  display: flex;
+  flex: 1;
+  flex-Direction: column;
+  gap: 1px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-Direction: row;
+  gap: 20px;
+  flex: 1;
+}
+
+
+.flex-rows {
+  display: flex;
+  flex-Direction: row;
+  justify-Content: space-between;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.bill-card {
+  display: flex;
+  flex-Direction: column;
+  padding: 20px;
+  border-Radius: 10px;
+  background-Color: #f8eac2;
+  gap: 12px;
+  min-Width: 320px;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .friends-card {
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+
+
+}
